@@ -1,0 +1,6 @@
+D:\lastLearingWorkSpace\LinqProject\LinqProject\bin\Debug\LinqProject.exe.config
+D:\lastLearingWorkSpace\LinqProject\LinqProject\bin\Debug\LinqProject.exe
+D:\lastLearingWorkSpace\LinqProject\LinqProject\bin\Debug\LinqProject.pdb
+D:\lastLearingWorkSpace\LinqProject\LinqProject\obj\Debug\LinqProject.csprojResolveAssemblyReference.cache
+D:\lastLearingWorkSpace\LinqProject\LinqProject\obj\Debug\LinqProject.exe
+D:\lastLearingWorkSpace\LinqProject\LinqProject\obj\Debug\LinqProject.pdb
