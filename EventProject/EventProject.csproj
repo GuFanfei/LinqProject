@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgeGrowUpEventArgs.cs" />
+    <Compile Include="AgeGrowUpEventHandler.cs" />
+    <Compile Include="BaseEventArgs.cs" />
+    <Compile Include="BaseEventHandler.cs" />
+    <Compile Include="BaseObject.cs" />
+    <Compile Include="Event\Alarm.cs" />
+    <Compile Include="Event\BoiledEventArgs.cs" />
+    <Compile Include="Event\Display.cs" />
+    <Compile Include="Event\Heater.cs" />
+    <Compile Include="ITest.cs" />
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

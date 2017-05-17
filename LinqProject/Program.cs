@@ -75,32 +75,38 @@ namespace LinqProject
             #endregion
 
             #region ObservableCollection用法
-            //创建一个用来观察的集合，并添加一些Person对象
-            ObservableCollection<Person> people = new ObservableCollection<Person>()
-            {
-                new Person() {FirstName = "Peter",LastName = "Murphy",Age=52},
-                new Person() {FirstName = "Peter",LastName = "Murphy",Age=48}
-            };
-
-            //绑定CollectionChanged事件
-            people.CollectionChanged += ObservableCollectionDemo.people_CollectionChanged;
-
-            people.Add(new Person()
-            {
-                FirstName = "Gu",
-                LastName = "Fanfei",
-                Age = 28
-            });
-
-            //people.Remove(new Person()
+            ////创建一个用来观察的集合，并添加一些Person对象
+            //ObservableCollection<Person> people = new ObservableCollection<Person>()
             //{
-            //    FirstName = "Peter",
-            //    LastName = "Murphy",
-            //    Age = 52
+            //    new Person() {FirstName = "Peter",LastName = "Murphy",Age=52},
+            //    new Person() {FirstName = "Peter",LastName = "Murphy",Age=48}
+            //};
+
+            ////绑定CollectionChanged事件
+            //people.CollectionChanged += ObservableCollectionDemo.people_CollectionChanged;
+
+            //people.Add(new Person()
+            //{
+            //    FirstName = "Gu",
+            //    LastName = "Fanfei",
+            //    Age = 28
             //});
-            people.RemoveAt(0);
+
+            ////people.Remove(new Person()
+            ////{
+            ////    FirstName = "Peter",
+            ////    LastName = "Murphy",
+            ////    Age = 52
+            ////});
+            //people.RemoveAt(0);
             #endregion
 
+            //LinqDemo.QueryOverStrings();
+            //LinqDemo.OfTypeAsFilter();
+            //LinqDemo.LINQOverArrayList();
+            //LinqDemo.GetCountFromQuery();
+            //LinqDemo.AggregateOps();
+            LinqDemo.QueryStringsWithAnonymousMethods();
             Console.ReadKey();
         }
 

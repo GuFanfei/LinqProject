@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AsIsDemo.cs" />
     <Compile Include="DeepAndShallow.cs" />
+    <Compile Include="LinqDemo.cs" />
     <Compile Include="ObservableCollectionDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
